@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#check-btn,
+#submit-quiz-btn {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
