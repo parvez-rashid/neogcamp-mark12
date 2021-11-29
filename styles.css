@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
+:root {
+    --primary-color: #34D399;
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -11,9 +15,46 @@ body {
     align-items: center;
 }
 
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
 #check-btn,
-#submit-quiz-btn {
+#submit-quiz-btn,
+#hypotenuse-btn,
+#area-btn {
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.input-box {
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+}
+
+.side-input {
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem;
 }
